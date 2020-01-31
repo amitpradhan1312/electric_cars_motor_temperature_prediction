@@ -1432,6 +1432,7 @@ def plot_predictions(predict):
     plt.xlabel('PM')
     plt.ylabel('Density')
     plt.title('Test Predictions')
+    
 
 
 # In[410]:
@@ -1492,4 +1493,4 @@ def predict(file):
 
 
 predict('final_model.pkl')
-
+## how to make a csv file of target variable
